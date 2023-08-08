@@ -1,0 +1,32 @@
+div[class='sideBar_Container']{display: flex;}
+
+div[class='sideBar_Container']>ul{display: flex;
+flex-flow: column nowrap;}
+
+a{display: block;}
+
+.ApiIcon{width: 25px;}
+
+li[class='ApiList']{display: flex;
+flex-flow: row nowrap;
+
+align-items: center;}
+
+li[class='ApiList']>a{display: flex;
+justify-content: space-around;
+align-items: center;
+text-decoration: none;}
+
+.ApiIcon{margin-right: 5px;}
+
+.DropDownArrow{margin-left: 20px;
+width: 20px;}
+
+ul[id='DropDownUl']{border: 1px solid black;
+border-bottom: 0px;
+list-style-type: none;
+padding-left: 0px;position: relative;
+top: 20px;
+flex-flow: column;}
+
+li[class='DropDownList']{border-bottom: 1px solid black;}
